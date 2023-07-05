@@ -12,7 +12,7 @@
     reason: string;
   };
   type LoginState = SuccessState | FailState;
-  function checkLogin(): LoginState {
+  function checkLogindis(): LoginState {
     return {
       result: "success",
       response: {
@@ -25,7 +25,7 @@
   //success -> body
   //fail -> bad
 
-  function printLoginState(state: LoginState) {
+  function printLoginStatedis(state: LoginState) {
     if (state.result === "success") {
       console.log(state.response.body);
     } else {
