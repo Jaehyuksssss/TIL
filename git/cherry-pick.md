@@ -67,3 +67,5 @@ git cherry-pick --continue
 
 master에 merge를 시킵니다.
 
+
+* test link : https://github.com/Jaehyuksssss/git-test 
